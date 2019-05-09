@@ -1,0 +1,776 @@
+2019-04-10 12:37:04 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id 
+2019-04-10 12:37:04 [org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] - [ main:10 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId= 
+2019-04-10 12:37:05 [org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261)] - [ main:1426 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String). 
+2019-04-10 12:37:05 [org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:281)] - [ main:1439 ] - [ INFO ]  Total input paths to process : 1 
+2019-04-10 12:37:05 [org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:494)] - [ main:1552 ] - [ INFO ]  number of splits:1 
+2019-04-10 12:37:06 [org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:583)] - [ main:1669 ] - [ INFO ]  Submitting tokens for job: job_local2090240831_0001 
+2019-04-10 12:37:06 [org.apache.hadoop.mapreduce.Job.submit(Job.java:1300)] - [ main:1866 ] - [ INFO ]  The url to track the job: http://localhost:8080/ 
+2019-04-10 12:37:06 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1345)] - [ main:1868 ] - [ INFO ]  Running job: job_local2090240831_0001 
+2019-04-10 12:37:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] - [ Thread-3:1869 ] - [ INFO ]  OutputCommitter set in config null 
+2019-04-10 12:37:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] - [ Thread-3:1879 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter 
+2019-04-10 12:37:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:1976 ] - [ INFO ]  Waiting for map tasks 
+2019-04-10 12:37:06 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] - [ LocalJobRunner Map Task Executor #0:1977 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ LocalJobRunner Map Task Executor #0:2647 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ LocalJobRunner Map Task Executor #0:2860 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@5317422f 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:753)] - [ LocalJobRunner Map Task Executor #0:2865 ] - [ INFO ]  Processing split: file:/E:/test/log/prov_id=031/day_id=20180620/net_type=4g/MBLDPI4G.2018062003_client2307.1529433045862.lzo_deflate.txt:0+16869 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1366)] - [ main:2874 ] - [ INFO ]  Job job_local2090240831_0001 running in uber mode : false 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:2878 ] - [ INFO ]   map 0% reduce 0% 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1202)] - [ LocalJobRunner Map Task Executor #0:2946 ] - [ INFO ]  (EQUATOR) 0 kvi 26214396(104857584) 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:995)] - [ LocalJobRunner Map Task Executor #0:2946 ] - [ INFO ]  mapreduce.task.io.sort.mb: 100 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:996)] - [ LocalJobRunner Map Task Executor #0:2947 ] - [ INFO ]  soft limit at 83886080 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:997)] - [ LocalJobRunner Map Task Executor #0:2947 ] - [ INFO ]  bufstart = 0; bufvoid = 104857600 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:998)] - [ LocalJobRunner Map Task Executor #0:2947 ] - [ INFO ]  kvstart = 26214396; length = 6553600 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:402)] - [ LocalJobRunner Map Task Executor #0:2951 ] - [ INFO ]  Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2980 ] - [ INFO ]   
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1457)] - [ LocalJobRunner Map Task Executor #0:2980 ] - [ INFO ]  Starting flush of map output 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ LocalJobRunner Map Task Executor #0:3009 ] - [ INFO ]  Task:attempt_local2090240831_0001_m_000000_0 is done. And is in the process of committing 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:3023 ] - [ INFO ]  map 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ LocalJobRunner Map Task Executor #0:3023 ] - [ INFO ]  Task 'attempt_local2090240831_0001_m_000000_0' done. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] - [ LocalJobRunner Map Task Executor #0:3023 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:3024 ] - [ INFO ]  map task executor complete. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:3027 ] - [ INFO ]  Waiting for reduce tasks 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3027 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_r_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3036 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3109 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@5253ed31 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3114 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@39269a50 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3144 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3147 ] - [ INFO ]  attempt_local2090240831_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#1:3186 ] - [ INFO ]  localfetcher#1 about to shuffle output of map attempt_local2090240831_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#1:3199 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#1:3244 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3246 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3248 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3248 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3263 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3263 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3266 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3268 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3268 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3269 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3273 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3274 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ pool-3-thread-1:3277 ] - [ INFO ]  mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3282 ] - [ INFO ]  Task:attempt_local2090240831_0001_r_000000_0 is done. And is in the process of committing 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3284 ] - [ INFO ]  reduce > reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3285 ] - [ INFO ]  Task 'attempt_local2090240831_0001_r_000000_0' done. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3285 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_r_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3285 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_r_000001_0 
+2019-04-10 12:37:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3288 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3361 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4c81934a 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3362 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@d3d3d55 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3364 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3365 ] - [ INFO ]  attempt_local2090240831_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#2:3371 ] - [ INFO ]  localfetcher#2 about to shuffle output of map attempt_local2090240831_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#2:3373 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#2:3374 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3374 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3375 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3376 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3387 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3388 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3392 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3393 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3394 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3394 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3398 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3400 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3400 ] - [ INFO ]  Task:attempt_local2090240831_0001_r_000001_0 is done. And is in the process of committing 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3403 ] - [ INFO ]  reduce > reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3403 ] - [ INFO ]  Task 'attempt_local2090240831_0001_r_000001_0' done. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3403 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_r_000001_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3404 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_r_000002_0 
+2019-04-10 12:37:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3407 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3474 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4eeca89a 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3474 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2a5fe387 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3475 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3478 ] - [ INFO ]  attempt_local2090240831_0001_r_000002_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#3:3485 ] - [ INFO ]  localfetcher#3 about to shuffle output of map attempt_local2090240831_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#3:3486 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#3:3486 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3488 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3489 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3489 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3498 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3499 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3501 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3502 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3503 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3503 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3505 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3506 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3506 ] - [ INFO ]  Task:attempt_local2090240831_0001_r_000002_0 is done. And is in the process of committing 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3508 ] - [ INFO ]  reduce > reduce 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3508 ] - [ INFO ]  Task 'attempt_local2090240831_0001_r_000002_0' done. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3508 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_r_000002_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3509 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_r_000003_0 
+2019-04-10 12:37:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3510 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3569 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@504916fd 
+2019-04-10 12:37:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3570 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7bcadc16 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3571 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3572 ] - [ INFO ]  attempt_local2090240831_0001_r_000003_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#4:3578 ] - [ INFO ]  localfetcher#4 about to shuffle output of map attempt_local2090240831_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#4:3580 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#4:3580 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 12:37:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3582 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3584 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3585 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3598 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3598 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3602 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3603 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3603 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3603 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3606 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3607 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3607 ] - [ INFO ]  Task:attempt_local2090240831_0001_r_000003_0 is done. And is in the process of committing 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3612 ] - [ INFO ]  reduce > reduce 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3612 ] - [ INFO ]  Task 'attempt_local2090240831_0001_r_000003_0' done. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3613 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_r_000003_0 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3613 ] - [ INFO ]  Starting task: attempt_local2090240831_0001_r_000004_0 
+2019-04-10 12:37:08 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3615 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3686 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6001ff93 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3687 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7867f390 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3688 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3690 ] - [ INFO ]  attempt_local2090240831_0001_r_000004_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#5:3696 ] - [ INFO ]  localfetcher#5 about to shuffle output of map attempt_local2090240831_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#5:3697 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2090240831_0001_m_000000_0 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#5:3697 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3698 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3699 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3699 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3710 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3711 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3713 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3715 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3715 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3715 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3718 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3719 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3720 ] - [ INFO ]  Task:attempt_local2090240831_0001_r_000004_0 is done. And is in the process of committing 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3721 ] - [ INFO ]  reduce > reduce 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3722 ] - [ INFO ]  Task 'attempt_local2090240831_0001_r_000004_0' done. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3722 ] - [ INFO ]  Finishing task: attempt_local2090240831_0001_r_000004_0 
+2019-04-10 12:37:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:3722 ] - [ INFO ]  reduce task executor complete. 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:3881 ] - [ INFO ]   map 100% reduce 100% 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1384)] - [ main:3881 ] - [ INFO ]  Job job_local2090240831_0001 completed successfully 
+2019-04-10 12:37:08 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1391)] - [ main:3908 ] - [ INFO ]  Counters: 33
+	File System Counters
+		FILE: Number of bytes read=106002
+		FILE: Number of bytes written=1514142
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=31
+		Map output records=0
+		Map output bytes=0
+		Map output materialized bytes=30
+		Input split bytes=352
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=0
+		Reduce shuffle bytes=30
+		Reduce input records=0
+		Reduce output records=0
+		Spilled Records=0
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=12
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1544552448
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0 
+2019-04-10 16:53:15 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id 
+2019-04-10 16:53:15 [org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] - [ main:6 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId= 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261)] - [ main:1431 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String). 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:281)] - [ main:1450 ] - [ INFO ]  Total input paths to process : 1 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:494)] - [ main:1513 ] - [ INFO ]  number of splits:1 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:583)] - [ main:1633 ] - [ INFO ]  Submitting tokens for job: job_local879441083_0001 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.Job.submit(Job.java:1300)] - [ main:1835 ] - [ INFO ]  The url to track the job: http://localhost:8080/ 
+2019-04-10 16:53:17 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1345)] - [ main:1836 ] - [ INFO ]  Running job: job_local879441083_0001 
+2019-04-10 16:53:17 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] - [ Thread-3:1838 ] - [ INFO ]  OutputCommitter set in config null 
+2019-04-10 16:53:17 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] - [ Thread-3:1850 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter 
+2019-04-10 16:53:17 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:1912 ] - [ INFO ]  Waiting for map tasks 
+2019-04-10 16:53:17 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] - [ LocalJobRunner Map Task Executor #0:1913 ] - [ INFO ]  Starting task: attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:18 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ LocalJobRunner Map Task Executor #0:2564 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ LocalJobRunner Map Task Executor #0:2642 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@13b012bb 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:753)] - [ LocalJobRunner Map Task Executor #0:2648 ] - [ INFO ]  Processing split: file:/E:/test/log/prov_id=031/day_id=20180620/net_type=4g/MBLDPI4G.2018062003_client2307.1529433045862.lzo_deflate.txt:0+16869 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1202)] - [ LocalJobRunner Map Task Executor #0:2743 ] - [ INFO ]  (EQUATOR) 0 kvi 26214396(104857584) 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:995)] - [ LocalJobRunner Map Task Executor #0:2744 ] - [ INFO ]  mapreduce.task.io.sort.mb: 100 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:996)] - [ LocalJobRunner Map Task Executor #0:2745 ] - [ INFO ]  soft limit at 83886080 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:997)] - [ LocalJobRunner Map Task Executor #0:2745 ] - [ INFO ]  bufstart = 0; bufvoid = 104857600 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:998)] - [ LocalJobRunner Map Task Executor #0:2745 ] - [ INFO ]  kvstart = 26214396; length = 6553600 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:402)] - [ LocalJobRunner Map Task Executor #0:2748 ] - [ INFO ]  Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2760 ] - [ INFO ]   
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1457)] - [ LocalJobRunner Map Task Executor #0:2760 ] - [ INFO ]  Starting flush of map output 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ LocalJobRunner Map Task Executor #0:2788 ] - [ INFO ]  Task:attempt_local879441083_0001_m_000000_0 is done. And is in the process of committing 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2802 ] - [ INFO ]  map 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ LocalJobRunner Map Task Executor #0:2802 ] - [ INFO ]  Task 'attempt_local879441083_0001_m_000000_0' done. 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] - [ LocalJobRunner Map Task Executor #0:2803 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:2803 ] - [ INFO ]  map task executor complete. 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:2806 ] - [ INFO ]  Waiting for reduce tasks 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:2806 ] - [ INFO ]  Starting task: attempt_local879441083_0001_r_000000_0 
+2019-04-10 16:53:18 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:2814 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1366)] - [ main:2839 ] - [ INFO ]  Job job_local879441083_0001 running in uber mode : false 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:2840 ] - [ INFO ]   map 100% reduce 0% 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:2877 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@fa8817c 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:2882 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6b11000 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:2895 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:2898 ] - [ INFO ]  attempt_local879441083_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#1:2957 ] - [ INFO ]  localfetcher#1 about to shuffle output of map attempt_local879441083_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#1:2965 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#1:3006 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3008 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3009 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:18 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3009 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3024 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:18 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3024 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3160 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3162 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3162 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3163 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3166 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3166 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ pool-3-thread-1:3170 ] - [ INFO ]  mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3177 ] - [ INFO ]  Task:attempt_local879441083_0001_r_000000_0 is done. And is in the process of committing 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3179 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3180 ] - [ INFO ]  Task 'attempt_local879441083_0001_r_000000_0' done. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3180 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_r_000000_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3181 ] - [ INFO ]  Starting task: attempt_local879441083_0001_r_000001_0 
+2019-04-10 16:53:19 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3183 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3251 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@22704ea5 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3252 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5ec77421 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3253 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3255 ] - [ INFO ]  attempt_local879441083_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#2:3261 ] - [ INFO ]  localfetcher#2 about to shuffle output of map attempt_local879441083_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#2:3262 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#2:3263 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3264 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3266 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3267 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3276 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3276 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3279 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3281 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3281 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3282 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3285 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3285 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3286 ] - [ INFO ]  Task:attempt_local879441083_0001_r_000001_0 is done. And is in the process of committing 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3288 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3288 ] - [ INFO ]  Task 'attempt_local879441083_0001_r_000001_0' done. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3288 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_r_000001_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3289 ] - [ INFO ]  Starting task: attempt_local879441083_0001_r_000002_0 
+2019-04-10 16:53:19 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3291 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3354 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@639199fb 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3354 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6128fd4 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3356 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3359 ] - [ INFO ]  attempt_local879441083_0001_r_000002_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#3:3365 ] - [ INFO ]  localfetcher#3 about to shuffle output of map attempt_local879441083_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#3:3366 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#3:3366 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3367 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3368 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3368 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3379 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3379 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3381 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3383 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3383 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3384 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3387 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3388 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3389 ] - [ INFO ]  Task:attempt_local879441083_0001_r_000002_0 is done. And is in the process of committing 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3390 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Task 'attempt_local879441083_0001_r_000002_0' done. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_r_000002_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Starting task: attempt_local879441083_0001_r_000003_0 
+2019-04-10 16:53:19 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3393 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3463 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@463dbf4b 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3464 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@298ca836 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3465 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3466 ] - [ INFO ]  attempt_local879441083_0001_r_000003_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#4:3473 ] - [ INFO ]  localfetcher#4 about to shuffle output of map attempt_local879441083_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#4:3474 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#4:3474 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3475 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3476 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3476 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3487 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3488 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3490 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3492 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3492 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3492 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3495 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3495 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3497 ] - [ INFO ]  Task:attempt_local879441083_0001_r_000003_0 is done. And is in the process of committing 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3499 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3499 ] - [ INFO ]  Task 'attempt_local879441083_0001_r_000003_0' done. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3499 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_r_000003_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3500 ] - [ INFO ]  Starting task: attempt_local879441083_0001_r_000004_0 
+2019-04-10 16:53:19 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3501 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3564 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@6129a795 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3564 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4a459b1c 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3566 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3567 ] - [ INFO ]  attempt_local879441083_0001_r_000004_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#5:3572 ] - [ INFO ]  localfetcher#5 about to shuffle output of map attempt_local879441083_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#5:3572 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local879441083_0001_m_000000_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#5:3573 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3573 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3574 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3574 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3584 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3584 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3588 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3603 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3603 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3604 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3609 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3610 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3610 ] - [ INFO ]  Task:attempt_local879441083_0001_r_000004_0 is done. And is in the process of committing 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3613 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3613 ] - [ INFO ]  Task 'attempt_local879441083_0001_r_000004_0' done. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3613 ] - [ INFO ]  Finishing task: attempt_local879441083_0001_r_000004_0 
+2019-04-10 16:53:19 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:3614 ] - [ INFO ]  reduce task executor complete. 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:3844 ] - [ INFO ]   map 100% reduce 100% 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1384)] - [ main:3844 ] - [ INFO ]  Job job_local879441083_0001 completed successfully 
+2019-04-10 16:53:19 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1391)] - [ main:3872 ] - [ INFO ]  Counters: 33
+	File System Counters
+		FILE: Number of bytes read=106002
+		FILE: Number of bytes written=1505958
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=31
+		Map output records=0
+		Map output bytes=0
+		Map output materialized bytes=30
+		Input split bytes=352
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=0
+		Reduce shuffle bytes=30
+		Reduce input records=0
+		Reduce output records=0
+		Spilled Records=0
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=12
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1544552448
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0 
+2019-04-10 16:55:06 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:1 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id 
+2019-04-10 16:55:06 [org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] - [ main:8 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId= 
+2019-04-10 16:55:07 [org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261)] - [ main:1405 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String). 
+2019-04-10 16:55:08 [org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:281)] - [ main:1426 ] - [ INFO ]  Total input paths to process : 1 
+2019-04-10 16:55:08 [org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:494)] - [ main:1478 ] - [ INFO ]  number of splits:1 
+2019-04-10 16:55:08 [org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:583)] - [ main:1695 ] - [ INFO ]  Submitting tokens for job: job_local1276902976_0001 
+2019-04-10 16:55:08 [org.apache.hadoop.mapreduce.Job.submit(Job.java:1300)] - [ main:1945 ] - [ INFO ]  The url to track the job: http://localhost:8080/ 
+2019-04-10 16:55:08 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1345)] - [ main:1946 ] - [ INFO ]  Running job: job_local1276902976_0001 
+2019-04-10 16:55:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] - [ Thread-3:1948 ] - [ INFO ]  OutputCommitter set in config null 
+2019-04-10 16:55:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] - [ Thread-3:1956 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter 
+2019-04-10 16:55:08 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:2021 ] - [ INFO ]  Waiting for map tasks 
+2019-04-10 16:55:08 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] - [ LocalJobRunner Map Task Executor #0:2022 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ LocalJobRunner Map Task Executor #0:2677 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ LocalJobRunner Map Task Executor #0:2769 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@304a506a 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:753)] - [ LocalJobRunner Map Task Executor #0:2774 ] - [ INFO ]  Processing split: file:/E:/test/log/prov_id=031/day_id=20180620/net_type=4g/MBLDPI4G.2018062003_client2307.1529433045862.lzo_deflate.txt:0+16869 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1202)] - [ LocalJobRunner Map Task Executor #0:2846 ] - [ INFO ]  (EQUATOR) 0 kvi 26214396(104857584) 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:995)] - [ LocalJobRunner Map Task Executor #0:2847 ] - [ INFO ]  mapreduce.task.io.sort.mb: 100 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:996)] - [ LocalJobRunner Map Task Executor #0:2848 ] - [ INFO ]  soft limit at 83886080 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:997)] - [ LocalJobRunner Map Task Executor #0:2848 ] - [ INFO ]  bufstart = 0; bufvoid = 104857600 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:998)] - [ LocalJobRunner Map Task Executor #0:2848 ] - [ INFO ]  kvstart = 26214396; length = 6553600 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:402)] - [ LocalJobRunner Map Task Executor #0:2852 ] - [ INFO ]  Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2863 ] - [ INFO ]   
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1457)] - [ LocalJobRunner Map Task Executor #0:2863 ] - [ INFO ]  Starting flush of map output 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ LocalJobRunner Map Task Executor #0:2913 ] - [ INFO ]  Task:attempt_local1276902976_0001_m_000000_0 is done. And is in the process of committing 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2926 ] - [ INFO ]  map 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ LocalJobRunner Map Task Executor #0:2927 ] - [ INFO ]  Task 'attempt_local1276902976_0001_m_000000_0' done. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] - [ LocalJobRunner Map Task Executor #0:2927 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:2927 ] - [ INFO ]  map task executor complete. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:2930 ] - [ INFO ]  Waiting for reduce tasks 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:2932 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_r_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:2940 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1366)] - [ main:2950 ] - [ INFO ]  Job job_local1276902976_0001 running in uber mode : false 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:2951 ] - [ INFO ]   map 100% reduce 0% 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3006 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@3c94bc03 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3009 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2bc233d1 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3023 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3026 ] - [ INFO ]  attempt_local1276902976_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#1:3144 ] - [ INFO ]  localfetcher#1 about to shuffle output of map attempt_local1276902976_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#1:3154 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#1:3206 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3209 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3211 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3213 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3236 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3237 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3242 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3244 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3245 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3246 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3252 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3253 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:09 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ pool-3-thread-1:3257 ] - [ INFO ]  mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3263 ] - [ INFO ]  Task:attempt_local1276902976_0001_r_000000_0 is done. And is in the process of committing 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3267 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3267 ] - [ INFO ]  Task 'attempt_local1276902976_0001_r_000000_0' done. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3268 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_r_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3269 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_r_000001_0 
+2019-04-10 16:55:09 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3272 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3353 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@7d3d9c9c 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3353 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1aba077d 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3355 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3357 ] - [ INFO ]  attempt_local1276902976_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#2:3363 ] - [ INFO ]  localfetcher#2 about to shuffle output of map attempt_local1276902976_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#2:3365 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#2:3367 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3369 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3369 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3370 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3384 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3385 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3389 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:55:09 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3395 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3397 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3398 ] - [ INFO ]  Task:attempt_local1276902976_0001_r_000001_0 is done. And is in the process of committing 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3400 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3400 ] - [ INFO ]  Task 'attempt_local1276902976_0001_r_000001_0' done. 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3402 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_r_000001_0 
+2019-04-10 16:55:09 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3403 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_r_000002_0 
+2019-04-10 16:55:09 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3406 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3483 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@468c7483 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3484 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@cc712c0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3485 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3487 ] - [ INFO ]  attempt_local1276902976_0001_r_000002_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#3:3495 ] - [ INFO ]  localfetcher#3 about to shuffle output of map attempt_local1276902976_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#3:3497 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#3:3497 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3498 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3499 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3499 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3510 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3510 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3513 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3514 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3515 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3515 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3519 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3519 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3520 ] - [ INFO ]  Task:attempt_local1276902976_0001_r_000002_0 is done. And is in the process of committing 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3522 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3522 ] - [ INFO ]  Task 'attempt_local1276902976_0001_r_000002_0' done. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3522 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_r_000002_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3522 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_r_000003_0 
+2019-04-10 16:55:10 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3524 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3596 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@744945cb 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3597 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@51441fad 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3599 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3603 ] - [ INFO ]  attempt_local1276902976_0001_r_000003_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#4:3608 ] - [ INFO ]  localfetcher#4 about to shuffle output of map attempt_local1276902976_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#4:3610 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#4:3611 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3611 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3612 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3612 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3625 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3625 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3630 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3632 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3632 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3632 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3635 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3636 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3636 ] - [ INFO ]  Task:attempt_local1276902976_0001_r_000003_0 is done. And is in the process of committing 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3638 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3638 ] - [ INFO ]  Task 'attempt_local1276902976_0001_r_000003_0' done. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3638 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_r_000003_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3639 ] - [ INFO ]  Starting task: attempt_local1276902976_0001_r_000004_0 
+2019-04-10 16:55:10 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3641 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3712 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@66f5ebf2 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3713 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@582c9dfa 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3715 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3717 ] - [ INFO ]  attempt_local1276902976_0001_r_000004_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#5:3725 ] - [ INFO ]  localfetcher#5 about to shuffle output of map attempt_local1276902976_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#5:3727 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local1276902976_0001_m_000000_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#5:3727 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3728 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3729 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3729 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3740 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3741 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3744 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3747 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3747 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3747 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3750 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3751 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3751 ] - [ INFO ]  Task:attempt_local1276902976_0001_r_000004_0 is done. And is in the process of committing 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3752 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3752 ] - [ INFO ]  Task 'attempt_local1276902976_0001_r_000004_0' done. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3752 ] - [ INFO ]  Finishing task: attempt_local1276902976_0001_r_000004_0 
+2019-04-10 16:55:10 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:3753 ] - [ INFO ]  reduce task executor complete. 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:3954 ] - [ INFO ]   map 100% reduce 100% 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1384)] - [ main:3954 ] - [ INFO ]  Job job_local1276902976_0001 completed successfully 
+2019-04-10 16:55:10 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1391)] - [ main:3978 ] - [ INFO ]  Counters: 33
+	File System Counters
+		FILE: Number of bytes read=106002
+		FILE: Number of bytes written=1514142
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=31
+		Map output records=0
+		Map output bytes=0
+		Map output materialized bytes=30
+		Input split bytes=352
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=0
+		Reduce shuffle bytes=30
+		Reduce input records=0
+		Reduce output records=0
+		Spilled Records=0
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=15
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1544552448
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0 
+2019-04-10 16:57:04 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  session.id is deprecated. Instead, use dfs.metrics.session-id 
+2019-04-10 16:57:04 [org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] - [ main:6 ] - [ INFO ]  Initializing JVM Metrics with processName=JobTracker, sessionId= 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:261)] - [ main:1399 ] - [ WARN ]  No job jar file set.  User classes may not be found. See Job or Job#setJar(String). 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:281)] - [ main:1418 ] - [ INFO ]  Total input paths to process : 1 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:494)] - [ main:1462 ] - [ INFO ]  number of splits:1 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:583)] - [ main:1550 ] - [ INFO ]  Submitting tokens for job: job_local2010990106_0001 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.Job.submit(Job.java:1300)] - [ main:1738 ] - [ INFO ]  The url to track the job: http://localhost:8080/ 
+2019-04-10 16:57:05 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1345)] - [ main:1739 ] - [ INFO ]  Running job: job_local2010990106_0001 
+2019-04-10 16:57:05 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] - [ Thread-3:1742 ] - [ INFO ]  OutputCommitter set in config null 
+2019-04-10 16:57:05 [org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] - [ Thread-3:1752 ] - [ INFO ]  OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter 
+2019-04-10 16:57:05 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:1815 ] - [ INFO ]  Waiting for map tasks 
+2019-04-10 16:57:05 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] - [ LocalJobRunner Map Task Executor #0:1817 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:06 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ LocalJobRunner Map Task Executor #0:2462 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ LocalJobRunner Map Task Executor #0:2537 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@13b012bb 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:753)] - [ LocalJobRunner Map Task Executor #0:2542 ] - [ INFO ]  Processing split: file:/E:/test/log/prov_id=031/day_id=20180620/net_type=4g/MBLDPI4G.2018062003_client2307.1529433045862.lzo_deflate.txt:0+16869 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1202)] - [ LocalJobRunner Map Task Executor #0:2612 ] - [ INFO ]  (EQUATOR) 0 kvi 26214396(104857584) 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:995)] - [ LocalJobRunner Map Task Executor #0:2613 ] - [ INFO ]  mapreduce.task.io.sort.mb: 100 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:996)] - [ LocalJobRunner Map Task Executor #0:2613 ] - [ INFO ]  soft limit at 83886080 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:997)] - [ LocalJobRunner Map Task Executor #0:2614 ] - [ INFO ]  bufstart = 0; bufvoid = 104857600 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:998)] - [ LocalJobRunner Map Task Executor #0:2614 ] - [ INFO ]  kvstart = 26214396; length = 6553600 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:402)] - [ LocalJobRunner Map Task Executor #0:2617 ] - [ INFO ]  Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2630 ] - [ INFO ]   
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1457)] - [ LocalJobRunner Map Task Executor #0:2631 ] - [ INFO ]  Starting flush of map output 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ LocalJobRunner Map Task Executor #0:2678 ] - [ INFO ]  Task:attempt_local2010990106_0001_m_000000_0 is done. And is in the process of committing 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ LocalJobRunner Map Task Executor #0:2695 ] - [ INFO ]  map 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ LocalJobRunner Map Task Executor #0:2695 ] - [ INFO ]  Task 'attempt_local2010990106_0001_m_000000_0' done. 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] - [ LocalJobRunner Map Task Executor #0:2696 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:2696 ] - [ INFO ]  map task executor complete. 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] - [ Thread-3:2700 ] - [ INFO ]  Waiting for reduce tasks 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:2700 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_r_000000_0 
+2019-04-10 16:57:06 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:2711 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1366)] - [ main:2743 ] - [ INFO ]  Job job_local2010990106_0001 running in uber mode : false 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:2745 ] - [ INFO ]   map 100% reduce 0% 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:2783 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@61dfcdca 
+2019-04-10 16:57:06 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:2786 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@9fea952 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:2800 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:2802 ] - [ INFO ]  attempt_local2010990106_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#1:2844 ] - [ INFO ]  localfetcher#1 about to shuffle output of map attempt_local2010990106_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:57:06 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#1:2853 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#1:2959 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:2961 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:2967 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:2967 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:2992 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:2993 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:2997 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:2999 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3000 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3000 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3004 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3005 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ pool-3-thread-1:3009 ] - [ INFO ]  mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3016 ] - [ INFO ]  Task:attempt_local2010990106_0001_r_000000_0 is done. And is in the process of committing 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3018 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3019 ] - [ INFO ]  Task 'attempt_local2010990106_0001_r_000000_0' done. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3019 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_r_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3019 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_r_000001_0 
+2019-04-10 16:57:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3022 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3086 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@29338fa3 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3086 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@713808e0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3087 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3089 ] - [ INFO ]  attempt_local2010990106_0001_r_000001_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#2:3094 ] - [ INFO ]  localfetcher#2 about to shuffle output of map attempt_local2010990106_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#2:3095 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#2:3096 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3096 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3097 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3097 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3106 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3106 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3109 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3111 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3111 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3111 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3114 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3114 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3115 ] - [ INFO ]  Task:attempt_local2010990106_0001_r_000001_0 is done. And is in the process of committing 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3117 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3117 ] - [ INFO ]  Task 'attempt_local2010990106_0001_r_000001_0' done. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3117 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_r_000001_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3117 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_r_000002_0 
+2019-04-10 16:57:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3119 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3182 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@4b766f9a 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3183 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7a38111c 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3185 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3193 ] - [ INFO ]  attempt_local2010990106_0001_r_000002_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#3:3199 ] - [ INFO ]  localfetcher#3 about to shuffle output of map attempt_local2010990106_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#3:3201 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#3:3203 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3205 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3207 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3207 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3216 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3217 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3219 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3221 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3221 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3221 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3224 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3225 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3225 ] - [ INFO ]  Task:attempt_local2010990106_0001_r_000002_0 is done. And is in the process of committing 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3227 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3227 ] - [ INFO ]  Task 'attempt_local2010990106_0001_r_000002_0' done. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3227 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_r_000002_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3227 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_r_000003_0 
+2019-04-10 16:57:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3229 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3296 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@40496180 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3296 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@38bbccac 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3298 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3300 ] - [ INFO ]  attempt_local2010990106_0001_r_000003_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#4:3306 ] - [ INFO ]  localfetcher#4 about to shuffle output of map attempt_local2010990106_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#4:3306 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#4:3307 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3307 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3308 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3308 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3317 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3318 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3320 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3322 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3322 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3322 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3325 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3325 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3326 ] - [ INFO ]  Task:attempt_local2010990106_0001_r_000003_0 is done. And is in the process of committing 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3328 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3328 ] - [ INFO ]  Task 'attempt_local2010990106_0001_r_000003_0' done. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3328 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_r_000003_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] - [ pool-3-thread-1:3328 ] - [ INFO ]  Starting task: attempt_local2010990106_0001_r_000004_0 
+2019-04-10 16:57:07 [org.apache.hadoop.yarn.util.ProcfsBasedProcessTree.isAvailable(ProcfsBasedProcessTree.java:181)] - [ pool-3-thread-1:3330 ] - [ INFO ]  ProcfsBasedProcessTree currently is supported only on Linux. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.initialize(Task.java:587)] - [ pool-3-thread-1:3391 ] - [ INFO ]   Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@32ff70c9 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] - [ pool-3-thread-1:3391 ] - [ INFO ]  Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@39314277 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:196)] - [ pool-3-thread-1:3392 ] - [ INFO ]  MergerManager: memoryLimit=1503238528, maxSingleShuffleLimit=375809632, mergeThreshold=992137472, ioSortFactor=10, memToMemMergeOutputsThreshold=10 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] - [ EventFetcher for fetching Map Completion Events:3397 ] - [ INFO ]  attempt_local2010990106_0001_r_000004_0 Thread started: EventFetcher for fetching Map Completion Events 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:141)] - [ localfetcher#5:3404 ] - [ INFO ]  localfetcher#5 about to shuffle output of map attempt_local2010990106_0001_m_000000_0 decomp: 2 len: 6 to MEMORY 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] - [ localfetcher#5:3405 ] - [ INFO ]  Read 2 bytes from map-output for attempt_local2010990106_0001_m_000000_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:314)] - [ localfetcher#5:3406 ] - [ INFO ]  closeInMemoryFile -> map-output of size: 2, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] - [ EventFetcher for fetching Map Completion Events:3406 ] - [ INFO ]  EventFetcher is interrupted.. Returning 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3408 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:674)] - [ pool-3-thread-1:3408 ] - [ INFO ]  finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3418 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3419 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:751)] - [ pool-3-thread-1:3422 ] - [ INFO ]  Merged 1 segments, 2 bytes to disk to satisfy reduce memory limit 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:781)] - [ pool-3-thread-1:3423 ] - [ INFO ]  Merging 1 files, 6 bytes from disk 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:796)] - [ pool-3-thread-1:3423 ] - [ INFO ]  Merging 0 segments, 0 bytes from memory into reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:597)] - [ pool-3-thread-1:3423 ] - [ INFO ]  Merging 1 sorted segments 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:696)] - [ pool-3-thread-1:3426 ] - [ INFO ]  Down to the last merge-pass, with 0 segments left of total size: 0 bytes 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3427 ] - [ INFO ]  1 / 1 copied. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.done(Task.java:1001)] - [ pool-3-thread-1:3428 ] - [ INFO ]  Task:attempt_local2010990106_0001_r_000004_0 is done. And is in the process of committing 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] - [ pool-3-thread-1:3430 ] - [ INFO ]  reduce > reduce 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.Task.sendDone(Task.java:1121)] - [ pool-3-thread-1:3431 ] - [ INFO ]  Task 'attempt_local2010990106_0001_r_000004_0' done. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] - [ pool-3-thread-1:3431 ] - [ INFO ]  Finishing task: attempt_local2010990106_0001_r_000004_0 
+2019-04-10 16:57:07 [org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] - [ Thread-3:3431 ] - [ INFO ]  reduce task executor complete. 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1373)] - [ main:3749 ] - [ INFO ]   map 100% reduce 100% 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1384)] - [ main:3750 ] - [ INFO ]  Job job_local2010990106_0001 completed successfully 
+2019-04-10 16:57:07 [org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1391)] - [ main:3773 ] - [ INFO ]  Counters: 33
+	File System Counters
+		FILE: Number of bytes read=106002
+		FILE: Number of bytes written=1514142
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=31
+		Map output records=0
+		Map output bytes=0
+		Map output materialized bytes=30
+		Input split bytes=352
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=0
+		Reduce shuffle bytes=30
+		Reduce input records=0
+		Reduce output records=0
+		Spilled Records=0
+		Shuffled Maps =5
+		Failed Shuffles=0
+		Merged Map outputs=5
+		GC time elapsed (ms)=11
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1544552448
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=0 
