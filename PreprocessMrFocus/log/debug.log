@@ -1,5 +1,0 @@
-2019-04-30 17:39:58 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces 
-2019-04-30 17:51:32 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces 
-2019-04-30 17:55:18 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces 
-2019-04-30 17:57:48 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces 
-2019-04-30 18:00:53 [org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1049)] - [ main:0 ] - [ INFO ]  mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces 
